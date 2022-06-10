@@ -1,3 +1,4 @@
+''' Try some things out'''
 numTuple = 1,2,3,4
 print(numTuple,type(numTuple))
 
@@ -29,7 +30,7 @@ splitDate = simpleDate.split('/')
 print(splitDate,type(splitDate))
 
 marxes = ['Groucho', 'Chico', 'Harpo']
-print(marxes[1])  
+print(marxes[1])
 print(marxes[-1])
 print(len(marxes))
 
@@ -53,8 +54,8 @@ print(f"{marxTuple=}")
 print(f"{marxTuple[::-1]=}")
 
 marxes = ['Groucho', 'Chico', 'Harpo']
-print(f'{marxes=}') 
-print(f"{marxes[::-1]=}") 
+print(f'{marxes=}')
+print(f"{marxes[::-1]=}")
 
 marxesR = marxes[::-1]
 print(f"{marxesR=}")
@@ -76,7 +77,7 @@ print(marx)
 
 marx = ['Groucho', 'Chico', 'Harpo']
 other = ['Zeppo', 'Gummo']
-marx.extend(other)          # append other list to end 
+marx.extend(other)          # append other list to end
 print(f'{marx=}')
 marx=marx[:3]
 print(f'{marx=}')
