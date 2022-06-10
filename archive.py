@@ -1,3 +1,4 @@
+''' Searching the webarchive for a page '''
 import webbrowser
 import json
 from urllib.request import urlopen
@@ -18,3 +19,4 @@ try:
     webbrowser.open(old_site)
 except:
     print("Sorry, no luck finding ", site)
+    
