@@ -31,17 +31,10 @@ for n in range(2, 10):
         continue
     print(n, 'is odd')
 
-class Point():
-    x : int
-    y : int
-
-point = Point(0, 0)
+point = (0, 0)
 print(len(point), point)
-# match point:
-#     case (0,0):
-#         print('origin')
-#     case _:
-#         print("didn't match")
-
-
-
+match point:
+    case (0,0):
+        print('origin')
+    case _:
+        print("didn't match")
