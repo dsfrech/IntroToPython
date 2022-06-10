@@ -1,3 +1,4 @@
+''' Searching the webarchive for a page '''
 import webbrowser
 import requests
 
