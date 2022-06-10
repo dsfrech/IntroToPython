@@ -1,3 +1,4 @@
+''' we use collections, enumerate, range, match'''
 # Create a sample collection
 users = {'a': 'i', 'b': 'o', 'c': 'i', 'd': 'i'}
 
