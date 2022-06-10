@@ -1,2 +1,11 @@
 1) Go ahead and create a folder and do some files in the folder
-2) 
+2) git init
+3) git add *
+4) git commit -m 'initial commit'
+5) on github, click NEW repository
+6) enter the repository name
+7) choose whether public or private and nothing else
+8) Click Create Repository
+9) git remote add origin git@github.com:dsfrech/[repository name].git
+   git branch -M main
+   git push -u origin main
